@@ -25,7 +25,6 @@ public class AppTest extends BrewsPageHelper {
 
 	@AfterMethod
 	public void tearDown() throws Exception {
-		Thread.sleep(3000);
 		browser.quit();
 	}
 
