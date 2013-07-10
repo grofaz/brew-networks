@@ -1,0 +1,74 @@
+- Finish forgot password tests
+
+
+
+GENERAL
+	- check if navbar+bottom items open the correct pages
+	+ check login status
+  
+HOME
+	- check if signup now button opens the correct page
+
+LOGIN
+	- check if page is displayed correctly
+	- check fields placeholders
+  + set email / pw
+  + check/close email / pw error messages
+  + check if user is prompted to log in
+  + click forgot pw
+  - check signup now button opens the correct page
+  + click sign in
+  
+FORGOT PW
+  + set email/zipcode
+  + click Send reset instructions and change password
+  + click Cancel
+
+RESET PW
+  - set reset code
+  - click reset/cancel
+  - check alert
+  - close alert
+
+SIGNUP
+	- check if page is displayed correctly
+	- check fields placeholders
+  - check input fields for valid input
+  - check address tooltip
+  - check sort by dropdown menus
+  - check tos&privacy policy links match the ones from the bottom of the page
+  - click signup
+  
+FIND
+	- check if page is displayed correctly
+	- check field placeholders
+	- check Use Home Address
+	+ set location
+	+ set radius
+	- check that results don't show locations higher than radius
+	+ set sort by
+	- check that results are sorted by [criteria]
+	+ set style
+	- check that results display only selected style
+	- set abv min/max
+	- check that results display only selected abv
+	- set ibu min/max
+	- check that results display only selected ibu
+	- set availability
+	- check that results display only selected availability
+	
+ACCOUNT PROFILE
+  - set first/last name
+  - set address
+  - set city
+  - set state
+  - set zipcode
+  - set timezone
+  - set/get bio
+  - change styles
+  - add/remove social links
+  - click save
+  - click cancel
+  - change email/pw
+  - read alert/close alert
+  - public view
