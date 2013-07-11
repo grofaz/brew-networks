@@ -118,7 +118,7 @@ public class BrewsPageHelper extends Helper {
 			brew.setId(element.getAttribute(getUIMapValue("brew", "id")));
 
 			String brewDetails = element.getText();
-			
+
 			// String[] characteristics = { "name", "description", "style", "description" };
 			// for (String attribute : characteristics)
 			// element.findElement(By.xpath(getUIMapValue("brew", attribute))).getText();
