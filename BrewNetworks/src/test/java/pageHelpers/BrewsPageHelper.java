@@ -115,11 +115,15 @@ public class BrewsPageHelper extends Helper {
 
 		for (WebElement element : brewElements) {
 			Brew brew = new Brew();
-			String[] characteristics = { "id", "name", "style", "rating", "description" };
-			for (String attribute : characteristics)
-				brew.setAttribute(attribute, element.getAttribute(getUIMapValue("brew", attribute)));
-			brew.setBatches(getBatchesList(browser));
-			brews.add(brew);
+			brew.setId(element.getAttribute(getUIMapValue("brew", "id")));
+
+			String brewDetails = element.getText();
+			
+			// String[] characteristics = { "name", "description", "style", "description" };
+			// for (String attribute : characteristics)
+			// element.findElement(By.xpath(getUIMapValue("brew", attribute))).getText();
+			// brew.setBatches(getBatchesList(browser));
+			// brews.add(brew);
 		}
 		return brews;
 	}
